@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+   public class Application {
+
+	   static int max(int a, int b) {
+		   if (a > b) {
+			   return a;
+		   }
+		   else {
+			   return b;
+			   
+		   }
+		   
+	   }
+	   
+  public static void main (String args[]) {
+	  
+	  Scanner input = new Scanner(System.in);
+	  
+	  System.out.println("Enter first number: ");
+	  int x = input.nextInt();
+	  
+	  System.out.println("Enter second number: ");
+	  int y = input.nextInt();
+	  
+	  
+	  
+	  int res = max(x,y);
+	  
+	  
+	  System.out.println(res);
+  }
+    	
+    }
+    
+    
