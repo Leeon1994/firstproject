@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+public class Application {
+	
+
+public static void main (String args[]) {
+	
+	
+	Vehicle v1 = new Vehicle();
+	Vehicle v2 = new Vehicle();
+	Vehicle v3 = new Vehicle();
+	
+	Scanner info = new Scanner(System.in);
+	
+	System.out.println("Enter car color: ");
+	v1.color = info.nextLine();
+	
+	System.out.println("Enter fuel: ");
+	v2.fuelCapacity = info.nextDouble();
+	
+	System.out.println("Enter wheels: ");
+	v3.wheels = info.nextInt();
+	
+	System.out.println("Your color is: " + v1.color + " Your fuel is: " + 
+	v2.fuelCapacity + " Your wheels are: " + v3.wheels );
+	
+	
+	
+	
+	
+	
+}
+  
+
+}
